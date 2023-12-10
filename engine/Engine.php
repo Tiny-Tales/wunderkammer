@@ -2,7 +2,7 @@
 
 namespace WK\Engine;
 
-readonly class Engine
+class Engine
 {
   public function __construct()
   {
