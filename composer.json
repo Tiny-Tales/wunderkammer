@@ -1,0 +1,24 @@
+{
+  "name": "tiny-tales/wunderkammer",
+  "version": "0.1.0",
+  "require": {
+    "php": "^8.2.0",
+    "ext-pdo": "*"
+  },
+  "require-dev": {
+    "fakerphp/faker": "^1.21.0",
+    "phpunit/phpunit": "^9.6.7",
+    "phpspec/prophecy-phpunit": "^v1.1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "WK\\App\\": "app/",
+      "Engine\\": "engine/"
+    }
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  }
+}
